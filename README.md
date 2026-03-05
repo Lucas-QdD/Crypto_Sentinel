@@ -18,7 +18,7 @@ O Crypto Sentinel é um pipeline de engenharia de dados projetado para monitorar
 **[EN]** The project follows the **Medallion Architecture** pattern, dividing data processing into three logical layers to ensure data quality and lineage.
 **[PT]** O projeto segue o padrão de **Arquitetura de Medalhão**, dividindo o processamento em três camadas lógicas para garantir a qualidade e linhagem dos dados.
 
-![Data Pipeline Architecture](docs/Data_Diagram.pdf)
+![Data Pipeline Architecture](docs/Data_Diagram2.png)
 
 ### 📂 Pipeline Stages | Etapas do Pipeline
 
