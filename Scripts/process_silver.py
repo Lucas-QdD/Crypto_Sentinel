@@ -40,7 +40,7 @@ def process_bronze_to_silver():
         print(f"Read: {data['ticker']} ({len(df)} rows)")
 
     # Merge
-    # Stack all dataframes together | Empilha todos os dataframes
+    # Stack all dataframes together 
     master_df = pd.concat(all_dfs, ignore_index=True)
 
     # Data Transformation

@@ -26,8 +26,8 @@ O Crypto Sentinel é um pipeline de engenharia de dados projetado para monitorar
     * **[PT]** Ingestão de dados brutos imutáveis da API CCXT, salvos em formato JSON.
 * **Silver (Cleaned):** * **[EN]** Data cleaning, timestamp normalization, and technical indicator calculations (Moving Averages, Volatility) using Python/Pandas.
     * **[PT]** Limpeza de dados, normalização de timestamps e cálculo de indicadores técnicos (Médias Móveis, Volatilidade) usando Python/Pandas.
-* **Gold (Business):** * **[EN]** Star Schema dimensional modeling optimized for analytical consumption and Power BI dashboards.
-    * **[PT]** Modelagem dimensional Star Schema otimizada para consumo analítico e dashboards no Power BI.
+* **Gold (Business):** * **[EN]** The Gold layer implements a Star Schema model, centralizing historical metrics in a Fact table connected to descriptive Dimensions for optimized Power BI performance.
+**[PT]** A camada Gold implementa um modelo Star Schema, centralizando métricas históricas em uma tabela Fato conectada a Dimensões descritivas para performance otimizada no Power BI.
 
 ## 🛠️ Technologies | Tecnologias
 
