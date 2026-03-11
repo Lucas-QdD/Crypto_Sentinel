@@ -36,7 +36,6 @@ def process_silver_to_gold():
         'volume'
     ]].copy()
 
-    # Renaming for better consistency with your ERD
     df_fact.columns = ['date_key', 'ticker_key', 'close_price', 'moving_average_7d', 'volume']
 
     # Export to Gold 
