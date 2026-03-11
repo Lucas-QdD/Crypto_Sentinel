@@ -66,7 +66,7 @@ def process_bronze_to_silver():
     print("-"*30)
     summary = master_df.groupby('ticker').size()
     for ticker, count in summary.items():
-        print(f"🔹 {ticker}: {count} records processed")
+        print(f"{ticker}: {count} records processed")
     print(f"\nfile saved at: data/silver/silver_crypto.parquet")
     print(f"Total rows: {len(master_df)}")
     print("="*30)
