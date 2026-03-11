@@ -1,6 +1,7 @@
 # Crypto Sentinel: Data Pipeline 
 
 **[EN]** Analysis of volatility and trends of high-liquidity assets (BTC, ETH, SOL) using a professional data engineering architecture.
+
 **[PT]** Análise de volatilidade e tendências de ativos de alta liquidez (BTC, ETH, SOL) utilizando uma arquitetura profissional de engenharia de dados.
 
 ---
@@ -53,18 +54,21 @@ Bash
 pip install pandas ccxt pyarrow
 
 3. **Execute the pipeline | Execute o pipeline:**
-[EN] Run the orchestrator to process all layers (Bronze -> Silver -> Gold) at once:
-[PT] Rode o orquestrador para processar todas as camadas (Bronze -> Silver -> Gold) de uma vez:
+[EN] Run the main.py to process all layers (Bronze -> Silver -> Gold) at once:
+
+[PT] Rode o main.py para processar todas as camadas (Bronze -> Silver -> Gold) de uma vez:
 
 Bash
 python main.py
 
 4. **Visualize in Power BI | Visualize no Power BI:**
 **[EN]** Open the .pbix file in the reports/ folder and update the data source to your local data/gold path.
+
 **[PT]** Abra o arquivo .pbix na pasta reports/ e atualize a fonte de dados para o caminho local da sua pasta data/gold.
 
 ## 📊 Final Results | Resultados Finais
 **[EN]** The final dashboard provides a clear view of price trends against the 7-day moving average and financial volume distribution.
+
 **[PT]** O dashboard final fornece uma visão clara das tendências de preço contra a média móvel de 7 dias e a distribuição de volume financeiro.
 ![Final Dashboard - Power BI](reports/report_photo.png)
 
